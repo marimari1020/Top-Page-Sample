@@ -1,0 +1,15 @@
+@charset "UTF-8";
+/*
+Theme Name: ExDesign
+Theme URI: http://34.204.37.106/wordpress/download/
+Description: This is our original theme.
+Author: ExDesign
+Author URI: http://34.204.37.106/wordpress/
+Version:1.0
+*/
+
+@import url(css/reset.css);
+@import url(css/main.css);
+
+
+

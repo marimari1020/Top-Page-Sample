@@ -1,56 +1,4 @@
-<!DOCTYPE html>
-<html lang="ja">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>ExDesign Mall</title>
-
-    <!-- Bootstrap -->
-	  	  <link href="css/reset.css" rel="stylesheet">
-	   	  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet"> 
-	  	  	
-	      <link href="css/main.css" rel="stylesheet">
-  </head>
-  <body>
-	<div class="container-fluid" style="background-color: #F5DB36 !important; ">
-	  <nav class="navbar navbar-default navbar-fixed-top"  style="background-color: #F5DB36 !important; ">
-    	<div class="navbar-header">
-  			<button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbarNavDropdown">
-    	    <span class="icon-bar"></span>
-       		<span class="icon-bar"></span>
-        	<span class="icon-bar"></span>
-  			</button>
-			<a class="navbar-brand" href="#"><img height="30px" src="images/logo-top.png" alt="top"></a>
-		</div>
-		<div class="collapse navbar-collapse" id="navbarNavDropdown">
-    		<ul class="nav navbar-nav">
-        		<li class="menu-item"><a href="#">会社概要</a></li>
-        		<li><a href="#">対応実績</a>
-          			<ul  class="dropdown-menu">
-            			<li><a href="#">フィリピン</a></li>
-            			<li><a href="#">国内</a></li>
-            			<li><a href="#">その他</a></li>
-         			</ul>
-        		</li>
-        		<li class="menu-item"><a href="#">コラム</a></li>
-       			<li class="menu-item"><a href="#">お問い合わせ</a></li>
-      		</ul><!-- #menu-global end -->
-			<form class="navbar-form navbar-right" role="search">
-				<div class="form-group">
-					<input type="text" class="form-control" placeholder="検索キーワード">
-				</div>
-				<button type="submit" class="btn btn-default">検索</button>
-	 		 </form>
-	    </div>
-    </nav>
-	<div style="background-color: #F5DB36 !important; padding-top:200px; "> 
-	  <div style=" font-size: 2em; font-weight: 600; position: absolute; top: 200px; left: 35%; z-index: 0; text-align: center;">We <h1 style="color:white; font-size: 6em; line-height:0.8em;">Design</h1></div>
-	    <video src="http://www.torutsume.net/wp-content/uploads/2018/10/video-top.mp4" height="500" style="padding-top:200px; " alt="" class="center-block " autoplay playsinline muted loop></video>
-  <!--
-	  <img src="images/chester-zoo-w1600h900.gif" width="980" alt="" class="center-block"/>
--->		</div> 
-    </div><!--container-fluid end-->
+<?php get_header(); ?>
 	<div class="container-fluid container" > <!--main-->
 	  <div class="row col-xs-12 top-main">
 		<h1><span class="top-main-title ">ExDesign helps your <br>business worldwide</span></h1>
@@ -61,7 +9,7 @@
 	  <div class="row col-xs-12">
 		<article class="pull-left  col-xs-6">
 			<div class="overlay-box main-article">
-           		<img class="main-articleimg" src="./images/2017-05-05 10.20.11.jpg" alt="汐留モール" />
+           		<img class="main-articleimg" src="<?php bloginfo('template_url'); ?>/images/2017-05-05 10.20.11.jpg" alt="汐留モール" />
 				<div class="overlay-box-slideleft" style="background-color: #FC7071;">
 				<h2>汐留展示場サイトデザイン</h2>「東洋のマンハッタン」といわれる東京汐留。汐留シオサイト内に位置し浜離宮恩賜庭園に隣接する交通至便の &#8230;
 				</div>
@@ -69,7 +17,7 @@
          </article>
          <article class="pull-right  col-xs-6">
 			<div class="overlay-boxdown main-article">
-	        	<img class="main-articleimg" src="./images/2015-08-22_ 90x90.jpg" alt="ドリアンモール" />
+	        	<img class="main-articleimg" src="<?php bloginfo('template_url'); ?>/images/2015-08-22_ 90x90.jpg" alt="ドリアンモール" />
 				<div class="overlay-box-slidedown" style="background-color:#4DECFB;">
 					<h2>ドリアンモールサイトデザイン</h2>シンガポールの中心街・オーチャードロードに古くからある小規模店舗群を時代の変化に合わせて整備・活性化 &#8230;
 				</div>
@@ -77,7 +25,7 @@
          </article>
          <article class="pull-left col-xs-6">
 			<div class="overlay-boxup main-article">
-           	  <img  class="main-articleimg" src="./images/2015-08-24_ 90x90.jpg" alt="チャオプラヤモール" />
+           	  <img  class="main-articleimg" src="<?php bloginfo('template_url'); ?>/images/2015-08-24_ 90x90.jpg" alt="チャオプラヤモール" />
 				<div class="overlay-box-slideup" style="background-color: #284C42;">
 					<h2>チャオプラヤパンフレットデザイン</h2>チャオプラヤモールは、マハラート通りとタイワング通りの交差する交通至便な場所に建設され2007年に開 &#8230;
 				</div>
@@ -85,7 +33,7 @@
           </article>
           <article class="pull-right  col-xs-6">
 			<div class="overlay-box main-article">
-       	    	<img class="main-articleimg " src="./images/2017-05-05 11.55.25.jpg" alt="チャオプラヤモール" />
+       	    	<img class="main-articleimg " src="<?php bloginfo('template_url'); ?>/images/2017-05-05 11.55.25.jpg" alt="チャオプラヤモール" />
 				<div class="overlay-box-slideleft" style="background-color: #284C42;">
 				<h2>ハワイ観光局ロゴデザイン</h2>モールは、マハラート通りとタイワング通りの交差する交通至便な場所に建設され2007年に開 &#8230;
 				</div>
@@ -93,38 +41,30 @@
            </article>
 	  </div>
 	  <div class="row col-xs-12">
-		  <img src="images/logo.png" class="img-responsive center-block" style="margin-top: 5%;" alt="logo">
+		  <img src="<?php bloginfo('template_url'); ?>/images/logo.png" class="img-responsive center-block" style="margin-top: 5%;" alt="logo">
 	  	  <div class="case-study center-block" >これまでの実績の一部を紹介します。<br>コーディング・Webデザイン・テクニカルライティング・技術翻訳など幅広く対応しています。<br>マニュアルライティング、技術翻訳からエディトリアルデザインまで対応。ExperienceをDesignします。<br>案件の主担当は、IT、語学、プログラミング、音楽と興味の幅が広く、良く言えば守備範囲が広い、悪く言えば器用貧乏が悩みです。</div>
 		  	<button type="button" class="btn btn-default btn-lg center-block button-style ">Show me everything</button>
 		</div>
 	 	<div class="row col-xs-12">
            <article class="col-xs-4 entry-update">
-				<img class="entry-updateimg" src="./images/2015-08-28_ 90x90.jpg" alt="マカロニ・スクータル" />
+				<img class="entry-updateimg" src="<?php bloginfo('template_url'); ?>/images/2015-08-28_ 90x90.jpg" alt="マカロニ・スクータル" />
 				<h3 class="update-title">マカロニ・スクータル <time class="entry-date" datetime="2012-01-01">2012年1月1日</time></h3>
             	<p class="update-text">今日はスタッフAさんのお姉さんが、かわいい小さな娘さん二人を &#8230;</p>
 			</article>
             <article class="col-xs-4 entry-update">
-				<img class="entry-updateimg" src="./images/2017-05-05_ 90x90.jpg" alt="汐留モール夏祭りの花火大会" />
+				<img class="entry-updateimg" src="<?php bloginfo('template_url'); ?>/images/2017-05-05_ 90x90.jpg" alt="汐留モール夏祭りの花火大会" />
 				<h3 class="update-title">汐留モール夏祭りの花火大会  <time class="entry-date" datetime="2012-01-01">2012年1月</time></h3>
              	<p class="update-text">先週金曜日の夕方、第9回汐留モール夏祭りが開催されました。ご &#8230;</p>
             </article>
 		  	<article class="col-xs-4 entry-update" >
-            	<img class="entry-updateimg" src="./images/2016-08-14_ 90x90.jpg" alt="ジョグジャの街"/>
+            	<img class="entry-updateimg" src="<?php bloginfo('template_url'); ?>/images/2016-08-14_ 90x90.jpg" alt="ジョグジャの街"/>
                	<h3 class="update-title">ジョグジャの街 <time class="entry-date" datetime="2012-01-01">2012年1月1日</time></h3>
 				<p class="update-text">10月に開催される物産展の準備のために、ジョグジャカルタ（以 &#8230;</p>
           	</article>
+			
+		
 	  	</div>
-  </div><!-- .container-fluid end -->	  
-	<!-- Site Footer -->
-  <footer class="site-footer fixed-bottom">
+	</div>
+			
 
-        <div class="copyright"><hr>© ExDesign</div>
-  </footer>
-    <!-- ./Site Footer -->  
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
-    <script src="js/jquery-3.2.1.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed --> 
-    <script src="js/popper.min.js"></script>
-	<script src="js/bootstrap-4.0.0.js"></script>
-  </body>
-</html>
+<?php get_footer(); ?>

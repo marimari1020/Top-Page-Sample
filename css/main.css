@@ -13,11 +13,13 @@ body {
 h1{
 	font-size: 1.5em;
 }
+
 .top-main{
 	padding: 3%;
 }
+
 .top-main-title {
-	color: #215D7E;	
+	color: #215D7E;
 	font-size: 2.0em;
 	text-decoration: none;
 	border-bottom: 1px solid #FC7071;
@@ -25,15 +27,18 @@ h1{
 	font-family: 'arial black';
 	line-height: 1.5em;
 }
+
 .top-main-text-blue{
 	padding-left:0;
 	padding-top: 2%;
 	color: #215D7E;	
 }
+
 .top-main-text-black{
 	padding-left:0;
 	padding-top: 2%;
 }
+
 h2{
 	font-size: 1em;
 }
@@ -47,14 +52,15 @@ section {
 	overflow: hidden;
 	max-width: 100%;
 }
+
 .overlay-boxdown{
-	position:relative; 
+	position:relative;
 	overflow: hidden;
 	max-width: 100%;
 }
 
 .overlay-boxup{
-	position:relative; 
+	position:relative;
 	overflow: hidden;
 	max-height: 100%;
 }
@@ -66,11 +72,12 @@ section {
 	transform: translateX(100%);
 	position: absolute;
 	left: 0;
-    bottom: 0;
+	bottom: 0;
 	color: white;
 	padding: 2%;
 	transition-duration:0.2s;
 }
+
 .overlay-box:hover .overlay-box-slideleft {
 	-moz-transform: translateX(70%);
 	-webkit-transform: translateX(70%);
@@ -87,11 +94,12 @@ section {
 	transform: translateY(100%);
 	position: absolute;
 	left: 0;
-    bottom: 0;
+	bottom: 0;
 	color: white;
 	padding: 2%;
 	transition-duration:0.2s;
 }
+
 .overlay-boxdown:hover .overlay-box-slidedown {
 	-moz-transform: translateY(0);
 	-webkit-transform: translateY(0);
@@ -100,7 +108,6 @@ section {
 	transition-duration:0.6s;
 }
 
-
 .overlay-boxup .overlay-box-slideup {
 	-moz-transform: translateY(-100%);
 	-webkit-transform: translateY(-100%);
@@ -108,11 +115,12 @@ section {
 	transform: translateY(-100%);
 	position: absolute;
 	left: 0;
-    top: 0;
+	top: 0;
 	color: white;
 	padding: 2%;
 	transition-duration:0.2s;
 }
+
 .overlay-boxup:hover .overlay-box-slideup {
 	-moz-transform: translateY(0);
 	-webkit-transform: translateY(0);
@@ -126,19 +134,22 @@ section {
 	font-size: 1.2em;
 	font-weight: 600;
 }
+
 .update-text{
 	color: #215D7E;	
 }
+
 .button-style{
 	background-color: #fff;
-    border: 3px solid #F5DB36;
+	border: 3px solid #F5DB36;
 	color: #215D7E;
 	font-weight: 600;
-    background-color: white;
+	background-color: white;
 	margin-top:-80px; 
 	position: relative; 
 	z-index: 1;
 }
+
 .button-style:hover{
 	background-color: #F5DB36;
 	color: white;
@@ -160,21 +171,22 @@ section {
 	text-align:center;
 	transition-duration:0.2s;
 }
+
 .entry-update:hover{
 	-webkit-transform: scale(1.04);
-    -moz-transform: scale(1.04);
-    -o-transform: scale(1.04);
-    -ms-transform: scale(1.04);
-    transform: scale(1.04);
+	-moz-transform: scale(1.04);
+	-o-transform: scale(1.04);
+	-ms-transform: scale(1.04);
+	transform: scale(1.04);
 	transition-duration:0.2s;
 	background-color: white;box-shadow: 5px 5px 5px rgba(0,0,0,0.1);
 }
-
 
 .main-article{
 	margin: 0px;
 	margin-bottom: 10px;
 }
+
 .main-articleimg{
 	width: 100%; 
 	padding: 0;
@@ -192,6 +204,6 @@ section {
 	background:url(../images/footer_back.png) ;
 	height:200px;
 	z-index: 0;
-}
 
+}
 
