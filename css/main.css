@@ -8,23 +8,57 @@
 body { 
 	line-height: 200%; 
 	background-color:#FFFDDC;
+		font-family: 'ヒラギノ角ゴシック', 'Hiragino Sans', 'ヒラギノ角ゴ ProN W3', 'Hiragino Kaku Gothic ProN', 'メイリオ', 'Meiryo', 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
+
 }
 
 h1{
 	font-size: 1.5em;
+
+	padding-bottom: 2%;
 }
 
+a {text-decoration: none !important;}
+.row-eq-height{
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: 2%;
+
+}
 .top-main{
 	padding: 3%;
+		border-bottom:solid 0.5px #215D7E !important;
+	padding-bottom: 5%;
+	margin-bottom: 3%;
 }
 
+
+
+
+
+.video-style{
+		padding-top:200px; 
+		height:400px !important ;
+	}
+	.top-video{
+	background-color: #F5DB36 ; 
+	padding-top:200px; 
+		    max-width: 100% !important;
+}
+
+
+.navbar-fixed-top{
+	padding-top: 30px;
+}
 .top-main-title {
+	margin-top: 5%;
 	color: #215D7E;
 	font-size: 2.0em;
 	text-decoration: none;
 	border-bottom: 1px solid #FC7071;
 	padding-bottom: 2px;
-	font-family: 'arial black';
+	font-family: 'Arial Black', 'Hiragino Sans', 'ヒラギノ角ゴ ProN W3', 'Hiragino Kaku Gothic ProN', 'メイリオ', 'Meiryo', 'ＭＳ Ｐゴシック', 'MS PGothic', Gadget;
+	font-weight: 700;
 	line-height: 1.5em;
 }
 
@@ -40,99 +74,25 @@ h1{
 }
 
 h2{
-	font-size: 1em;
+	font-size: 1.5em;
 }
 
 section {
 	margin: 5%;
 }
 
-.overlay-box{
-	position:relative; 
-	overflow: hidden;
-	max-width: 100%;
-}
-
-.overlay-boxdown{
-	position:relative;
-	overflow: hidden;
-	max-width: 100%;
-}
-
-.overlay-boxup{
-	position:relative;
-	overflow: hidden;
-	max-height: 100%;
-}
-
-.overlay-box .overlay-box-slideleft {
-	-moz-transform: translateX(100%);
-	-webkit-transform: translateX(100%);
-	-ms-transform: translateX(100%);
-	transform: translateX(100%);
-	position: absolute;
-	left: 0;
-	bottom: 0;
-	color: white;
-	padding: 2%;
-	transition-duration:0.2s;
-}
-
-.overlay-box:hover .overlay-box-slideleft {
-	-moz-transform: translateX(70%);
-	-webkit-transform: translateX(70%);
-	-ms-transform: translateX(70%);
-	transform: translateX(70%);
-	transition-duration:0.6s;
-	height: 100%;
-}
-
-.overlay-boxdown .overlay-box-slidedown {
-	-moz-transform: translateY(100%);
-	-webkit-transform: translateY(100%);
-	-ms-transform: translateY(100%);
-	transform: translateY(100%);
-	position: absolute;
-	left: 0;
-	bottom: 0;
-	color: white;
-	padding: 2%;
-	transition-duration:0.2s;
-}
-
-.overlay-boxdown:hover .overlay-box-slidedown {
-	-moz-transform: translateY(0);
-	-webkit-transform: translateY(0);
-	-ms-transform: translateY(0);
-	transform: translateY(0);
-	transition-duration:0.6s;
-}
-
-.overlay-boxup .overlay-box-slideup {
-	-moz-transform: translateY(-100%);
-	-webkit-transform: translateY(-100%);
-	-ms-transform: translateY(-100%);
-	transform: translateY(-100%);
-	position: absolute;
-	left: 0;
-	top: 0;
-	color: white;
-	padding: 2%;
-	transition-duration:0.2s;
-}
-
-.overlay-boxup:hover .overlay-box-slideup {
-	-moz-transform: translateY(0);
-	-webkit-transform: translateY(0);
-	-ms-transform: translateY(0);
-	transform: translateY(0);
-	transition-duration:0.6s;
-}
 
 .update-title{
 	color:#FC7071;
-	font-size: 1.2em;
+	font-size: 1.5em;
 	font-weight: 600;
+	display: inline;
+
+
+}
+
+.column-main{
+	margin-top: 10%;
 }
 
 .update-text{
@@ -144,11 +104,23 @@ section {
 	border: 3px solid #F5DB36;
 	color: #215D7E;
 	font-weight: 600;
-	background-color: white;
 	margin-top:-80px; 
 	position: relative; 
 	z-index: 1;
 }
+
+/*
+.submit-button{
+	background-color: #F5DB36;
+	font-weight: 600;
+	padding: 10px;
+	border:none;
+	margin-top:10px;
+	border-radius: 10px;
+	
+}
+*/
+
 
 .button-style:hover{
 	background-color: #F5DB36;
@@ -165,10 +137,7 @@ section {
 }
 
 .entry-update{
-	padding-top: 2%;
-	margin-top: 10%;
-	margin-bottom:10%;
-	text-align:center;
+
 	transition-duration:0.2s;
 }
 
@@ -182,14 +151,10 @@ section {
 	background-color: white;box-shadow: 5px 5px 5px rgba(0,0,0,0.1);
 }
 
-.main-article{
-	margin: 0px;
-	margin-bottom: 10px;
-}
 
-.main-articleimg{
-	width: 100%; 
-	padding: 0;
+.box{
+	padding:2%;
+	margin-bottom:2%;
 }
 
 .copyright{
@@ -207,3 +172,14 @@ section {
 
 }
 
+.content-archive-row{
+	padding-top: 5%;
+	padding-bottom: 5%;
+}
+
+
+/*for Contact form 7*/
+
+.wpcf7 input.wpcf7-text { width: 100%; } 
+.wpcf7 textarea.wpcf7-textarea { width: 100%; } 
+.wpcf7-form textarea { height: 200px; }
