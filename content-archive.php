@@ -8,12 +8,12 @@
 				<div class="col-md-2">
 				<a href="<?php the_permalink(); ?>">
 					<?php the_post_thumbnail('large_thumbnail', array('alt' => the_title_attribute('echo=0'), 'title' => the_title_attribute('echo=0'))); ?>
-					</a>
-</div>
-					<div class="col-md-10">
-				<?php the_excerpt(); ?>
-									</div>
-					</div>
+				</a>
+				</div>
+				<div class="col-md-10">
+					<?php the_excerpt(); ?>
+				</div>
+				</div>
 			</article>
-</div>
+		</div>
 	

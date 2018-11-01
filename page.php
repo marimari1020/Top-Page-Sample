@@ -16,14 +16,10 @@
 			</section>
 		</article>
 		</div>
-	<?php
-				
-			endwhile;
+	<?php		
+		endwhile;
 		endif;
-		?>	
-		
-
+	?>	
 	</div> <!--container-fluid container end-->
 			
-
 <?php get_footer(); ?>

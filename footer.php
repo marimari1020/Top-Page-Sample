@@ -3,8 +3,8 @@
 <!-- Site Footer -->
 
 <footer class="site-footer fixed-bottom">
-<div class="copyright"><hr> &copy; <?php bloginfo('name'); ?></div>
-  </footer>
+	<div class="copyright"><hr> &copy; <?php bloginfo('name'); ?></div>
+</footer>
 
 <!-- Site Footer -->  
 

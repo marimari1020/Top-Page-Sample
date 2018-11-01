@@ -16,13 +16,9 @@
 			</section>
 		</article>
 		</div>
-	<?php
+		<?php
 			endwhile;
-		endif;
+			endif;
 		?>	
-		
-
 	</div> <!--container-fluid container end-->
-			
-
 <?php get_footer(); ?>
